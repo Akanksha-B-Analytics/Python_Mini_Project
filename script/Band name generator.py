@@ -30,9 +30,9 @@
 #Your band name could be: Mumbai Rocky
 #```
 
-print("hello " + input("whats your name?") + "!")
-petname = input("whats your pet's name?")
-cityname = input("whats your city's name?")
+print("hello " + input("whats your name?\n") + "!")
+petname = input("whats your pet's name?\n")
+cityname = input("whats your city's name?\n")
 print("Your band name is:- " + petname + " " + cityname)
 
 
