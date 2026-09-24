@@ -1,0 +1,36 @@
+# Stores the quiz questions and answers.
+# Acts as the data source for the application,
+# providing raw question data used to create Question objects.
+# link use to extract the que is https://opentdb.com/api_config.php
+
+question_data =  [
+        {"type": "boolean", "difficulty": "easy", "category": "Geography",
+         "question": "The capital of Indonesia is Bali.",
+         "correct_answer": "False", "incorrect_answers": ["True"]},
+        {"type": "boolean", "difficulty": "easy", "category": "Geography",
+         "question": "Toronto is the capital city of the North American country of Canada.", "correct_answer": "False",
+         "incorrect_answers": ["True"]}, {"type": "boolean", "difficulty": "easy", "category": "Geography",
+                                          "question": "Bosnia and Herzegovina is a country located in the Baltic region in Europe.",
+                                          "correct_answer": "False", "incorrect_answers": ["True"]},
+        {"type": "boolean", "difficulty": "easy", "category": "Geography", "question": "Tokyo is the capital of Japan.",
+         "correct_answer": "True", "incorrect_answers": ["False"]},
+        {"type": "boolean", "difficulty": "easy", "category": "Geography",
+         "question": "There is a city called Rome in every continent on Earth.", "correct_answer": "False",
+         "incorrect_answers": ["True"]},
+        {"type": "boolean",
+         "difficulty": "easy",
+         "category": "Geography",
+         "question": "Nova Scotia is on the east coast of Canada.",
+         "correct_answer": "True",
+         "incorrect_answers": ["False"]},
+        {"type": "boolean", "difficulty": "easy", "category": "Geography",
+         "question": "Washington, D.C. is considered a US state.", "correct_answer": "False",
+         "incorrect_answers": ["True"]}, {"type": "boolean", "difficulty": "easy", "category": "Geography",
+                                          "question": "St. Louis is the capital of the US State Missouri.",
+                                          "correct_answer": "False", "incorrect_answers": ["True"]},
+        {"type": "boolean", "difficulty": "easy", "category": "Geography",
+         "question": "Argentina&#039;s name comes from the latin name for Silver.", "correct_answer": "True",
+         "incorrect_answers": ["False"]},
+        {"type": "boolean", "difficulty": "easy", "category": "Geography",
+         "question": "There are no deserts in Europe.",
+         "correct_answer": "True", "incorrect_answers": ["False"]}]
